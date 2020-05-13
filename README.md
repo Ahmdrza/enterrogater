@@ -1,3 +1,3 @@
-# ##NAME
+# enterogater
 
-##DESCRIPTION
+roided implementation of the enquirer library for creating entire user interfaces

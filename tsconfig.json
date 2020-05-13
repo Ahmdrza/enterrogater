@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+    ],
+    "outDir": "lib",
+    "typeRoots": [
+      "./node_modules/@types",
+    ],
+    "target": "es2017",
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "diagnostics": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "module": "esnext"
+  },
+  "include": [
+    "src"
+  ],
+  "ts-node": {
+    "compilerOptions": {}
+  },
+}

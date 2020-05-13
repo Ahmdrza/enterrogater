@@ -1,0 +1,42 @@
+{
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#4488ff55",
+    "window.activeBorder": "#5fb3b3",
+    "window.inactiveBorder": "#1b2b34"
+  },
+  "standard.engine": "standardx",
+  "standard.usePackageJson": true,
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    "typescriptreact"
+  ],
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode",
+    "**/.vscode*/**"
+  ],
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "html",
+    "markdown",
+  ]
+}

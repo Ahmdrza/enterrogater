@@ -2,6 +2,7 @@
 node_modules
 temp{!late}*
 .temp*
+.history
 # if you're wondering: this is a hidden config file on macOS
 .DS_Store
 
